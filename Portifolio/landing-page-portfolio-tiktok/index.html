@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo do seu site</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+    <!--Botão voltar ao topo-->
+    <div id="backToTop" class="fixed-button">
+        <i class="bi bi-chevron-up"></i>
+    </div>
+
+    <!--Botão WhatsApp-->
+    <div id="whatsappButton" class="fixed-button">
+        <i class="bi bi-whatsapp"></i>
+    </div>
+
+    <!--Container Geral-->
+    <div class="container">
+
+        <!--Header-->
+        <header class="header">
+            <div class="logo">
+                <img src="assets/img/SUA-LOGO-AQUI.png" alt="">
+            </div>
+            <div class="menu">
+                <label class="hamburger">
+                    <input type="checkbox" id="menuToggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </div>
+            <div class="menu-aberto">
+                <nav class="nav-menu">
+                    <a href="#inicio">INÍCIO</a>
+                    <a href="#sobre">SOBRE</a>
+                    <a href="#servicos">SERVIÇOS</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#contato">CONTATO</a>
+                </nav>
+            </div>
+        </header>
+        <!--Fim Header-->
+
+        <!--Início-->
+        <main id="inicio" class="inicio">
+            <div class="container-inicio">
+                <div class="conteudo-inicio" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-inicio">
+                        <h1>Olá, eu sou</h1>
+                        <h1 class="destaque-inicio">Luan Belchior</h1>
+                        <h2 class="subtitulo-inicio">Desenvolvedor Front-End</h2>
+                    </div>
+                    <div class="paragrafo-inicio" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <p>
+                            Transformo ideias em interfaces incríveis! Vamos criar algo extraordinário juntos?
+                        </p>
+                    </div>
+                    <button class="cta" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <span>Entre em Contato</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                            <path d="M1,5 L11,5"></path>
+                            <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="complemento-inicio">
+                    <img class="text" src="assets/img/complemento-esquerda.png" alt="">
+                    <img class="qr-code" src="assets/img/qr_code_rmdeveloper.png" alt="QR Code para contato">
+                </div>
+            </div>
+        </main>
+        
+        <!--Fim Início-->
+
+        <!--Sobre-->
+        <section id="sobre" class="sobre">
+            <div class="container-sobre">
+                <!--Slide Sobre-->
+                <div class="headline-sobre" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="headline-scroll" id="headline-scroll">
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                    </div>
+                </div>
+                <div class="conteudo-sobre">
+                    <div class="left-sobre" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="textos-sobre">
+                            <h1>Olá, me chamo Luan Belchior</h1>
+                            <p>
+                                Sou Desenvolvedor Front-end com habilidades em HTML, CSS e JavaScript. 
+                                Tenho experiência em React.js, Next.js, Redux, TypeScript, Styled Components, Material UI e consumo de APIs REST. 
+                                Apaixonado por criar componentes reutilizáveis e interfaces modernas que oferecem uma excelente experiência para os usuários.
+                                Também possuo vivência em projetos gerenciados por Metodologias Ágeis e estou sempre buscando me atualizar e aprender novas tecnologias.
+                            </p>
+                        </div>
+                        <div class="redes-sociais">
+                            <a href="https://www.instagram.com/seuusuario" target="_blank">INSTAGRAM<i class="bi bi-arrow-right"></i></a>
+                            <a href="https://github.com/seuusuario" target="_blank">GITHUB<i class="bi bi-arrow-right"></i></a>
+                            <a href="https://www.linkedin.com/in/seuusuario" target="_blank">LINKEDIN<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="right-sobre" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="imagem-sobre">
+                            <img src="assets/img/sua-foto.png" alt="Sua foto">
+                        </div>
+                        <div class="complemento-sobre">
+                            <img src="assets/img/texto-giratorio.png" alt="Complemento visual">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Fim Sobre-->
+
+        <!--Skills-->
+        <section id="skills" class="skills">
+            <div class="container-skills" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-skills">
+                    <div class="text-headline-skills" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <h2>Minhas Skills</h2>
+                        <p>Abaixo estão algumas das minhas habilidades principais na área de desenvolvimento web.</p>
+                    </div>
+                </div>
+                <div class="conteudo-skills">
+                    <!-- HTML -->
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <i class="bi bi-file-code"></i>
+                        <h3>HTML</h3>
+                        <p>Criação de estruturas semânticas e acessíveis para páginas web.</p>
+                    </div>
+                    <!-- CSS -->
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <i class="bi bi-palette"></i>
+                        <h3>CSS</h3>
+                        <p>Estilização responsiva, animações e layouts modernos com flexbox e grid.</p>
+                    </div>
+                    <!-- JavaScript -->
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <i class="bi bi-braces"></i>
+                        <h3>JavaScript</h3>
+                        <p>Desenvolvimento de interatividade, manipulação de DOM e integração com APIs.</p>
+                    </div>
+                    <!-- Outros -->
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>Outras Tecnologias</h3>
+                        <p>Versionamento com Git, bibliotecas como Bootstrap, e frameworks como React.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Fim Skills-->
+
+        <!--Serviços-->
+        <section id="servicos" class="servicos">
+            <div class="container-servicos">
+                <!-- Título e descrição da seção -->
+                <div class="headline-servicos" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-servicos">
+                        <h1>Serviços</h1>
+                    </div>
+                    <div class="descricao-servicos" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <p>Ofereço serviços de desenvolvimento web, criação de interfaces modernas e soluções personalizadas para diversos tipos de projetos. Confira abaixo alguns exemplos!</p>
+                    </div>
+                </div>
+                <!-- Cards de Serviços -->
+                <div class="servicos-cards">
+                    <!-- Projeto: Lista de Tarefas -->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Desenvolvimento Web</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-globe"></i></div>
+                        <p>Criação de sites e aplicações dinâmicas, como <a href="https://belchi0r.github.io/Lista/" target="_blank">essa lista de tarefas</a>.</p>
+                    </div>
+                    <!-- Projeto: Barberia -->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Sites Corporativos</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-building"></i></div>
+                        <p>Desenvolvimento de sites para negócios, como o <a href="https://belchi0r.github.io/Barberia/" target="_blank">site da barbearia</a>.</p>
+                    </div>
+                    <!-- Projeto: Documentação Visual -->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Documentação de Projetos</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-journal-text"></i></div>
+                        <p>Criação de documentações visuais e interativas, como no <a href="https://belchi0r.github.io/DV/" target="_blank">projeto DV</a>.</p>
+                    </div>
+                    <!-- Projeto: VINHA DO SENHOR -->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Sites Religiosos</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-cross"></i></div>
+                        <p>Desenvolvimento de sites dedicados a comunidades religiosas, como <a href="https://belchi0r.github.io/VINHA-DO-SENHOR/" target="_blank">Vinha do Senhor</a>.</p>
+                    </div>
+                    <!-- Projeto: Escola CED08 -->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Soluções Educacionais</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-mortarboard"></i></div>
+                        <p>Desenvolvimento de sites para instituições educacionais, como o <a href="https://belchi0r.github.io/CED08/" target="_blank">CED08</a>.</p>
+                    </div>
+                    <!-- Consultoria Técnica -->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="800" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Consultoria Técnica</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-chat-square-text"></i></div>
+                        <p>Orientação e suporte para projetos web, desde o planejamento até a entrega final.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--Fim Serviços-->
+
+        <!--Complemento FREE YOUR MIND-->
+        <section id="free-your-mind" class="free-your-mind">
+            <div class="container-free-your-mind" data-aos="fade-up" data-aos-duration="1000">
+                <div class="line-container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <span> TRANSFORME </span>
+                    <span class="line"></span>
+                </div>
+                <div class="line-container center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <span class="line"></span>
+                    <span> VISÕES </span>
+                    <span class="line"></span>
+                </div>
+                <div class="line-container right" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                    <span class="line"></span>
+                    <span> EM REALIDADE </span>
+                </div>
+            </div>
+        </section>
+        
+        <!--Fim FREE YOUR MIND-->
+
+        <!--Portfolio-->
+        <section id="portfolio" class="portfolio">
+            <div class="container-portfolio" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-portfolio">
+                    <h1 class="titulo">Portfólio</h1>
+                    <span class="descricao">Aqui você pode conferir alguns dos meus projetos mais recentes, desenvolvidos com dedicação e expertise nas mais diversas áreas do desenvolvimento web.</span>
+                </div>
+                <div class="container-case">
+                    <!--Case 1-->
+                    <div class="case1" data-aos="fade-right" data-aos-delay="200">
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/imagem.png" alt="Projeto 1">
+                                <img src="assets/img/imagem.png" alt="Projeto 1">
+                                <img src="assets/img/imagem.png" alt="Projeto 1">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>Lista de Tarefas</h1>
+                                <p>Este projeto foi desenvolvido para facilitar o gerenciamento de tarefas diárias, com foco em usabilidade e design clean.</p>
+                                <a href="https://belchi0r.github.io/Lista/" target="_blank"><button class="btn">Acesse aqui</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 2-->
+                    <div class="case2" data-aos="fade-left" data-aos-delay="300">
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>Barbearia</h1>
+                                <p>Site desenvolvido para uma barbearia, com agendamento online e informações sobre serviços e promoções.</p>
+                                <a href="https://belchi0r.github.io/Barberia/" target="_blank"><button class="btn">Acesse aqui</button></a>
+                            </div>
+                        </div>
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/imagem.png" alt="Barbearia">
+                                <img src="assets/img/imagem.png" alt="Barbearia">
+                                <img src="assets/img/imagem.png" alt="Barbearia">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 3-->
+                    <div class="case3" data-aos="fade-right" data-aos-delay="400">
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/imagem.png" alt="DV">
+                                <img src="assets/img/imagem.png" alt="DV">
+                                <img src="assets/img/imagem.png" alt="DV">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>Documentação Visual</h1>
+                                <p>Criação de documentação visual interativa para o projeto DV, facilitando a compreensão e o uso do sistema.</p>
+                                <a href="https://belchi0r.github.io/DV/" target="_blank"><button class="btn">Acesse aqui</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 4-->
+                    <div class="case4" data-aos="fade-left" data-aos-delay="500">
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>Vinha do Senhor</h1>
+                                <p>Desenvolvimento de site para uma organização religiosa, com foco em acessibilidade e funcionalidades para a comunidade.</p>
+                                <a href="https://belchi0r.github.io/VINHA-DO-SENHOR/" target="_blank"><button class="btn">Acesse aqui</button></a>
+                            </div>
+                        </div>
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="assets/img/imagem.png" alt="Vinha do Senhor">
+                                <img src="assets/img/imagem.png" alt="Vinha do Senhor">
+                                <img src="assets/img/imagem.png" alt="Vinha do Senhor">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--Fim Portfolio-->
+
+        <!--Contato-->
+        <section id="contato" class="contato">
+            <div class="container-contato" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-contato" data-aos="fade-up" data-aos-delay="200">
+                    <div class="titulo-contato">
+                        <h1>Contato</h1>
+                    </div>
+                    <div class="descricao-contato">
+                        <ul class="lista-contato">
+                            <li><a href="https://wa.me/5561994402561">WhatsApp: (55) 61 99440-2561</a></li>
+                            <li><a href="mailto:luanalexandrelegal@gmail.com">Email: luanalexandrelegal@gmail.com</a></li>
+                            <li><a href="https://www.google.com/maps?q=SENAI+Gama">Endereço: Próximo ao SENAI Gama</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="conteudo-contato" data-aos="fade-up" data-aos-delay="400">
+                    <div class="formulario-contato">
+                        <h2>Entre em contato comigo</h2>
+                        <p>Se você tem alguma dúvida ou precisa de ajuda com seus projetos de desenvolvimento web, não hesite em entrar em contato. Estou sempre disponível para discutir como posso ajudar a transformar suas ideias em realidade!</p>
+                        <form class="form">
+                            <input type="text" placeholder="Digite seu nome completo">
+                            <input type="phone" placeholder="(55) 22222-2222">
+                            <input type="email" placeholder="Seu melhor email">
+                            <textarea name="mensagem" id="mensagem" placeholder="Escreva o que você deseja aqui..."></textarea>
+                            <button class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="logo-contato" data-aos="fade-up" data-aos-delay="600">
+                        <img src="assets/img/imagem.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Footer-->
+        <footer class="footer" id="footer">
+            <div class="container-footer">
+                <div class="footer-column logo-column">
+                    <img src="assets/img/SUA-LOGO-AQUI.png" alt="">
+                </div>
+                <div class="footer-column menu-column">
+                    <nav class="footer-nav">
+                        <a href="#inicio">Início</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+                <div class="footer-column social-column">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="bi bi-github"></i> GitHub</a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column credits-column">
+                <p>&copy; 2024 Todos os direitos reservados.</p>
+                <p>Desenvolvido por Luan Belchior.</p>
+            </div>
+        </footer>
+        
+        
+        <!--Fim Footer-->
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!--JavaScript-->
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/actionButton.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/slideSobre.js"></script>
+    <script src="assets/js/slidePortfolio.js"></script>
+
+</body>
+
+</html>
